@@ -88,3 +88,25 @@
   color:#fff;
 }
 
+@media (max-width: 768px) {
+  .row.row_text_left {
+    -ms-flex-wrap:wrap-reverse !important;
+    flex-wrap:wrap-reverse !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .row.row_text_left {
+    -ms-flex-wrap:wrap!important;
+    flex-wrap:wrap !important;
+  }
+}
+
+.col-img {
+  padding:0px;
+}
+
+h1, .h1 {
+  margin-top:8px;
+}
+
