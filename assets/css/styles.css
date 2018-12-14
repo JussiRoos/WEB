@@ -1,10 +1,20 @@
-::selection {
-  color:white;
-  background:#78C2AD;
+.col {
+  padding: 3%;
 }
 
-::-moz-selection {
-  color:white;
-  background:#78C2AD;
+a {
+  font-size: 22px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #78c2ad;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.h1, h1 {
+  font-family: Montserrat, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #5a5a5a;
+}
+
+a {
 }
 
